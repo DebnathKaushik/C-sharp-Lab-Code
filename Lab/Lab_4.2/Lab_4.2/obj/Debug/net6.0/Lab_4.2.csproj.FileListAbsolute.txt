@@ -1,0 +1,15 @@
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\Lab_4.2.csproj.AssemblyReference.cache
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\Lab_4.2.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\Lab_4.2.AssemblyInfoInputs.cache
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\Lab_4.2.AssemblyInfo.cs
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\Lab_4.2.csproj.CoreCompileInputs.cache
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\bin\Debug\net6.0\Lab_4.2.exe
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\bin\Debug\net6.0\Lab_4.2.deps.json
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\bin\Debug\net6.0\Lab_4.2.runtimeconfig.json
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\bin\Debug\net6.0\Lab_4.2.dll
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\bin\Debug\net6.0\Lab_4.2.pdb
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\Lab_4.2.dll
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\refint\Lab_4.2.dll
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\Lab_4.2.pdb
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\Lab_4.2.genruntimeconfig.cache
+D:\c# 4th semister Lab code\Lab\Lab_4.2\Lab_4.2\obj\Debug\net6.0\ref\Lab_4.2.dll

@@ -1,0 +1,15 @@
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\Food_Inheritace.csproj.AssemblyReference.cache
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\Food_Inheritace.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\Food_Inheritace.AssemblyInfoInputs.cache
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\Food_Inheritace.AssemblyInfo.cs
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\Food_Inheritace.csproj.CoreCompileInputs.cache
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\bin\Debug\net6.0\Food_Inheritace.exe
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\bin\Debug\net6.0\Food_Inheritace.deps.json
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\bin\Debug\net6.0\Food_Inheritace.runtimeconfig.json
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\bin\Debug\net6.0\Food_Inheritace.dll
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\bin\Debug\net6.0\Food_Inheritace.pdb
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\Food_Inheritace.dll
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\refint\Food_Inheritace.dll
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\Food_Inheritace.pdb
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\Food_Inheritace.genruntimeconfig.cache
+D:\c# 4th semister Lab code\Lab\Food_Inheritace\Food_Inheritace\obj\Debug\net6.0\ref\Food_Inheritace.dll

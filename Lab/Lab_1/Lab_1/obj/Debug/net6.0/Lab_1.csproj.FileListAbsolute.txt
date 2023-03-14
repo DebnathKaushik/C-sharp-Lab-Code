@@ -1,0 +1,15 @@
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.csproj.AssemblyReference.cache
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.AssemblyInfoInputs.cache
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.AssemblyInfo.cs
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.csproj.CoreCompileInputs.cache
+D:\c# 4th semister\Lab\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.exe
+D:\c# 4th semister\Lab\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.deps.json
+D:\c# 4th semister\Lab\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.runtimeconfig.json
+D:\c# 4th semister\Lab\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.dll
+D:\c# 4th semister\Lab\Lab_1\Lab_1\bin\Debug\net6.0\Lab_1.pdb
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.dll
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\refint\Lab_1.dll
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.pdb
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\Lab_1.genruntimeconfig.cache
+D:\c# 4th semister\Lab\Lab_1\Lab_1\obj\Debug\net6.0\ref\Lab_1.dll
