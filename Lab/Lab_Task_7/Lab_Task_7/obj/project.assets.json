@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C # Lab code\\Lab\\Labtask_6\\Labtask_6\\Labtask_6.csproj",
-      "projectName": "Labtask_6",
-      "projectPath": "D:\\C # Lab code\\Lab\\Labtask_6\\Labtask_6\\Labtask_6.csproj",
+      "projectUniqueName": "D:\\C # Lab code\\Lab\\Lab_Task_7\\Lab_Task_7\\Lab_Task_7.csproj",
+      "projectName": "Lab_Task_7",
+      "projectPath": "D:\\C # Lab code\\Lab\\Lab_Task_7\\Lab_Task_7\\Lab_Task_7.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\C # Lab code\\Lab\\Labtask_6\\Labtask_6\\obj\\",
+      "outputPath": "D:\\C # Lab code\\Lab\\Lab_Task_7\\Lab_Task_7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
