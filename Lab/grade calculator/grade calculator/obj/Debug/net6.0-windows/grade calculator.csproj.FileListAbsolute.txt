@@ -1,0 +1,34 @@
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.exe
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.deps.json
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.runtimeconfig.json
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.dll
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.pdb
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.csproj.AssemblyReference.cache
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade_calculator.Form1.resources
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.csproj.GenerateResource.cache
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.AssemblyInfoInputs.cache
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.AssemblyInfo.cs
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.csproj.CoreCompileInputs.cache
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.dll
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\refint\grade calculator.dll
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.pdb
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.genruntimeconfig.cache
+D:\CS (4th Semester)\OBJECT ORIENTED PROGRAMMING 2 (C#)\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\ref\grade calculator.dll
+C:\Users\HP\Downloads\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.exe
+C:\Users\HP\Downloads\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.deps.json
+C:\Users\HP\Downloads\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.runtimeconfig.json
+C:\Users\HP\Downloads\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.dll
+C:\Users\HP\Downloads\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.pdb
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade_calculator.Form1.resources
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.AssemblyInfo.cs
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.dll
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\refint\grade calculator.dll
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.pdb
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.genruntimeconfig.cache
+C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\ref\grade calculator.dll
