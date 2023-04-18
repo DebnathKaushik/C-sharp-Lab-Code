@@ -32,3 +32,20 @@ C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows
 C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.pdb
 C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.genruntimeconfig.cache
 C:\Users\HP\Downloads\grade calculator\grade calculator\obj\Debug\net6.0-windows\ref\grade calculator.dll
+D:\C # Lab code\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.exe
+D:\C # Lab code\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.deps.json
+D:\C # Lab code\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.runtimeconfig.json
+D:\C # Lab code\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.dll
+D:\C # Lab code\Lab\grade calculator\grade calculator\bin\Debug\net6.0-windows\grade calculator.pdb
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.csproj.AssemblyReference.cache
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade_calculator.Form1.resources
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.csproj.GenerateResource.cache
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.AssemblyInfoInputs.cache
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.AssemblyInfo.cs
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.csproj.CoreCompileInputs.cache
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.dll
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\refint\grade calculator.dll
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.pdb
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\grade calculator.genruntimeconfig.cache
+D:\C # Lab code\Lab\grade calculator\grade calculator\obj\Debug\net6.0-windows\ref\grade calculator.dll

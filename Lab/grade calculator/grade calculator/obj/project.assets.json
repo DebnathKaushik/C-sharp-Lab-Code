@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Downloads\\grade calculator\\grade calculator\\grade calculator.csproj",
+      "projectUniqueName": "D:\\C # Lab code\\Lab\\grade calculator\\grade calculator\\grade calculator.csproj",
       "projectName": "grade calculator",
-      "projectPath": "C:\\Users\\HP\\Downloads\\grade calculator\\grade calculator\\grade calculator.csproj",
+      "projectPath": "D:\\C # Lab code\\Lab\\grade calculator\\grade calculator\\grade calculator.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Downloads\\grade calculator\\grade calculator\\obj\\",
+      "outputPath": "D:\\C # Lab code\\Lab\\grade calculator\\grade calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
