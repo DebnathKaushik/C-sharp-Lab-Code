@@ -1,0 +1,34 @@
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\Mobile Trench.exe
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\Mobile Trench.deps.json
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\Mobile Trench.runtimeconfig.json
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\Mobile Trench.dll
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\Mobile Trench.pdb
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\Guna.UI2.dll
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\System.Management.dll
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.csproj.AssemblyReference.cache
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile_Trench.Form1.resources
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.csproj.GenerateResource.cache
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.AssemblyInfoInputs.cache
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.AssemblyInfo.cs
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.csproj.CoreCompileInputs.cache
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.csproj.CopyComplete
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.dll
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\refint\Mobile Trench.dll
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.pdb
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile Trench.genruntimeconfig.cache
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\ref\Mobile Trench.dll
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile_Trench.Properties.Resources.resources
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile_Trench.Dashboard.resources
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile_Trench.AllUserControl.UC_AddNewPhone.resources
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Mobile Trench\Mobile Trench\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile_Trench.AllUserControl.Customer.resources
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile_Trench.AllUserControl.UC_Stock.resources
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile_Trench.AllUserControl.UC_CustomerRecords.resources
+D:\Mobile Trench\Mobile Trench\obj\Debug\net6.0-windows\Mobile_Trench.AllUserControl.UC_DeletePhoneRecord.resources
