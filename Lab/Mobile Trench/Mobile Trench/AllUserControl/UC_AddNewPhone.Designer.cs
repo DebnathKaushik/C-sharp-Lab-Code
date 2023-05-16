@@ -107,7 +107,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(151, 106);
+            label2.Location = new Point(111, 141);
             label2.Name = "label2";
             label2.Size = new Size(186, 29);
             label2.TabIndex = 1;
@@ -123,16 +123,17 @@
             txtCompany.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             txtCompany.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtCompany.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtCompany.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            txtCompany.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtCompany.ForeColor = Color.Black;
             txtCompany.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtCompany.Location = new Point(150, 137);
+            txtCompany.Location = new Point(114, 172);
             txtCompany.Margin = new Padding(3, 2, 3, 2);
             txtCompany.Name = "txtCompany";
             txtCompany.PasswordChar = '\0';
             txtCompany.PlaceholderText = "";
             txtCompany.SelectedText = "";
             txtCompany.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txtCompany.Size = new Size(430, 36);
+            txtCompany.Size = new Size(431, 46);
             txtCompany.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtCompany.TabIndex = 2;
             txtCompany.TextChanged += txtCompany_TextChanged;
@@ -146,16 +147,17 @@
             txtModel.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             txtModel.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtModel.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtModel.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            txtModel.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtModel.ForeColor = Color.Black;
             txtModel.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtModel.Location = new Point(150, 237);
-            txtModel.Margin = new Padding(3, 2, 3, 2);
+            txtModel.Location = new Point(114, 271);
+            txtModel.Margin = new Padding(4, 2, 4, 2);
             txtModel.Name = "txtModel";
             txtModel.PasswordChar = '\0';
             txtModel.PlaceholderText = "";
             txtModel.SelectedText = "";
             txtModel.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txtModel.Size = new Size(430, 36);
+            txtModel.Size = new Size(431, 46);
             txtModel.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtModel.TabIndex = 4;
             txtModel.TextChanged += txtModel_TextChanged;
@@ -164,7 +166,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(151, 206);
+            label3.Location = new Point(114, 234);
             label3.Name = "label3";
             label3.Size = new Size(152, 29);
             label3.TabIndex = 3;
@@ -174,7 +176,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(151, 290);
+            label4.Location = new Point(114, 337);
             label4.Name = "label4";
             label4.Size = new Size(63, 29);
             label4.TabIndex = 5;
@@ -188,11 +190,11 @@
             txtRam.DropDownStyle = ComboBoxStyle.DropDownList;
             txtRam.FocusedColor = Color.FromArgb(94, 148, 255);
             txtRam.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtRam.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            txtRam.ForeColor = Color.FromArgb(68, 88, 112);
+            txtRam.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtRam.ForeColor = Color.Black;
             txtRam.ItemHeight = 30;
-            txtRam.Items.AddRange(new object[] { "1 GB", "2 GB", "3 GB", "4 GB", "8 GB", "16 GB" });
-            txtRam.Location = new Point(151, 316);
+            txtRam.Items.AddRange(new object[] { "4 GB", "8 GB", "16 GB", "32 GB" });
+            txtRam.Location = new Point(114, 363);
             txtRam.Margin = new Padding(3, 2, 3, 2);
             txtRam.Name = "txtRam";
             txtRam.ShadowDecoration.CustomizableEdges = customizableEdges6;
@@ -209,11 +211,11 @@
             txtInternal.DropDownStyle = ComboBoxStyle.DropDownList;
             txtInternal.FocusedColor = Color.FromArgb(94, 148, 255);
             txtInternal.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtInternal.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            txtInternal.ForeColor = Color.FromArgb(68, 88, 112);
+            txtInternal.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtInternal.ForeColor = Color.Black;
             txtInternal.ItemHeight = 30;
-            txtInternal.Items.AddRange(new object[] { "1 GB", "2 GB", "3 GB", "4 GB", "8 GB", "16 GB" });
-            txtInternal.Location = new Point(151, 415);
+            txtInternal.Items.AddRange(new object[] { "8 GB", "16 GB", "32 GB", "64 GB", "128 GB", "256 GB", "512 GB" });
+            txtInternal.Location = new Point(114, 472);
             txtInternal.Margin = new Padding(3, 2, 3, 2);
             txtInternal.Name = "txtInternal";
             txtInternal.ShadowDecoration.CustomizableEdges = customizableEdges8;
@@ -226,7 +228,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(151, 384);
+            label5.Location = new Point(114, 441);
             label5.Name = "label5";
             label5.Size = new Size(183, 29);
             label5.TabIndex = 7;
@@ -240,11 +242,11 @@
             txtExpandable.DropDownStyle = ComboBoxStyle.DropDownList;
             txtExpandable.FocusedColor = Color.FromArgb(94, 148, 255);
             txtExpandable.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtExpandable.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            txtExpandable.ForeColor = Color.FromArgb(68, 88, 112);
+            txtExpandable.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtExpandable.ForeColor = Color.Black;
             txtExpandable.ItemHeight = 30;
-            txtExpandable.Items.AddRange(new object[] { "16 GB", "32 GB", "64 GB", "128 GB", "256 GB" });
-            txtExpandable.Location = new Point(151, 508);
+            txtExpandable.Items.AddRange(new object[] { "No Expendable Memory", "128 GB", "256 GB", "512 GB", "1 TB" });
+            txtExpandable.Location = new Point(114, 585);
             txtExpandable.Margin = new Padding(3, 2, 3, 2);
             txtExpandable.Name = "txtExpandable";
             txtExpandable.ShadowDecoration.CustomizableEdges = customizableEdges10;
@@ -257,7 +259,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(151, 477);
+            label6.Location = new Point(114, 554);
             label6.Name = "label6";
             label6.Size = new Size(235, 29);
             label6.TabIndex = 9;
@@ -271,11 +273,11 @@
             txtDisplay.DropDownStyle = ComboBoxStyle.DropDownList;
             txtDisplay.FocusedColor = Color.FromArgb(94, 148, 255);
             txtDisplay.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtDisplay.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            txtDisplay.ForeColor = Color.FromArgb(68, 88, 112);
+            txtDisplay.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDisplay.ForeColor = Color.Black;
             txtDisplay.ItemHeight = 30;
-            txtDisplay.Items.AddRange(new object[] { "5.0 inch", "5.5 inch", "6.0 inch", "6.5 inch" });
-            txtDisplay.Location = new Point(151, 608);
+            txtDisplay.Items.AddRange(new object[] { "5.0 inch", "5.2 inch", "5.5 inch", "6.0 inch", "6.5 inch", "6.9 inch" });
+            txtDisplay.Location = new Point(114, 692);
             txtDisplay.Margin = new Padding(3, 2, 3, 2);
             txtDisplay.Name = "txtDisplay";
             txtDisplay.ShadowDecoration.CustomizableEdges = customizableEdges12;
@@ -288,7 +290,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(151, 567);
+            label7.Location = new Point(114, 651);
             label7.Name = "label7";
             label7.Size = new Size(92, 29);
             label7.TabIndex = 11;
@@ -302,11 +304,11 @@
             txtRear.DropDownStyle = ComboBoxStyle.DropDownList;
             txtRear.FocusedColor = Color.FromArgb(94, 148, 255);
             txtRear.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtRear.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            txtRear.ForeColor = Color.FromArgb(68, 88, 112);
+            txtRear.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtRear.ForeColor = Color.Black;
             txtRear.ItemHeight = 30;
-            txtRear.Items.AddRange(new object[] { "16 MP", "32 MP", "64MP" });
-            txtRear.Location = new Point(890, 131);
+            txtRear.Items.AddRange(new object[] { "8 MP", "16 MP", "32 MP", "64 MP", "108 MP " });
+            txtRear.Location = new Point(836, 166);
             txtRear.Margin = new Padding(3, 2, 3, 2);
             txtRear.Name = "txtRear";
             txtRear.ShadowDecoration.CustomizableEdges = customizableEdges14;
@@ -319,7 +321,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(890, 106);
+            label8.Location = new Point(836, 125);
             label8.Name = "label8";
             label8.Size = new Size(156, 29);
             label8.TabIndex = 13;
@@ -333,11 +335,11 @@
             txtFront.DropDownStyle = ComboBoxStyle.DropDownList;
             txtFront.FocusedColor = Color.FromArgb(94, 148, 255);
             txtFront.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtFront.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            txtFront.ForeColor = Color.FromArgb(68, 88, 112);
+            txtFront.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtFront.ForeColor = Color.Black;
             txtFront.ItemHeight = 30;
-            txtFront.Items.AddRange(new object[] { "8 MP", "16 MP ", "32 MP" });
-            txtFront.Location = new Point(890, 231);
+            txtFront.Items.AddRange(new object[] { "8 MP", "18 MP", "32 MP" });
+            txtFront.Location = new Point(836, 265);
             txtFront.Margin = new Padding(3, 2, 3, 2);
             txtFront.Name = "txtFront";
             txtFront.ShadowDecoration.CustomizableEdges = customizableEdges16;
@@ -350,7 +352,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.Location = new Point(890, 206);
+            label9.Location = new Point(836, 240);
             label9.Name = "label9";
             label9.Size = new Size(160, 29);
             label9.TabIndex = 15;
@@ -365,11 +367,11 @@
             txtFingerprint.DropDownStyle = ComboBoxStyle.DropDownList;
             txtFingerprint.FocusedColor = Color.FromArgb(94, 148, 255);
             txtFingerprint.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtFingerprint.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            txtFingerprint.ForeColor = Color.FromArgb(68, 88, 112);
+            txtFingerprint.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtFingerprint.ForeColor = Color.Black;
             txtFingerprint.ItemHeight = 30;
             txtFingerprint.Items.AddRange(new object[] { "Yes", "No" });
-            txtFingerprint.Location = new Point(890, 321);
+            txtFingerprint.Location = new Point(836, 368);
             txtFingerprint.Margin = new Padding(3, 2, 3, 2);
             txtFingerprint.Name = "txtFingerprint";
             txtFingerprint.ShadowDecoration.CustomizableEdges = customizableEdges18;
@@ -382,7 +384,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(890, 290);
+            label10.Location = new Point(836, 337);
             label10.Name = "label10";
             label10.Size = new Size(213, 29);
             label10.TabIndex = 17;
@@ -396,11 +398,11 @@
             txtSim.DropDownStyle = ComboBoxStyle.DropDownList;
             txtSim.FocusedColor = Color.FromArgb(94, 148, 255);
             txtSim.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSim.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSim.ForeColor = Color.FromArgb(68, 88, 112);
+            txtSim.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSim.ForeColor = Color.Black;
             txtSim.ItemHeight = 30;
             txtSim.Items.AddRange(new object[] { "One Sim", "Dual Sim" });
-            txtSim.Location = new Point(890, 415);
+            txtSim.Location = new Point(836, 472);
             txtSim.Margin = new Padding(3, 2, 3, 2);
             txtSim.Name = "txtSim";
             txtSim.ShadowDecoration.CustomizableEdges = customizableEdges20;
@@ -413,7 +415,7 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label11.Location = new Point(890, 384);
+            label11.Location = new Point(836, 441);
             label11.Name = "label11";
             label11.Size = new Size(116, 29);
             label11.TabIndex = 19;
@@ -427,11 +429,11 @@
             txtNetwork.DropDownStyle = ComboBoxStyle.DropDownList;
             txtNetwork.FocusedColor = Color.FromArgb(94, 148, 255);
             txtNetwork.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtNetwork.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            txtNetwork.ForeColor = Color.FromArgb(68, 88, 112);
+            txtNetwork.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNetwork.ForeColor = Color.Black;
             txtNetwork.ItemHeight = 30;
-            txtNetwork.Items.AddRange(new object[] { "2G", "2G , 3G", "2G , 3G ,4G " });
-            txtNetwork.Location = new Point(890, 508);
+            txtNetwork.Items.AddRange(new object[] { "2G", "2G\\3G", "2G\\3G\\4G", "2G\\3G\\4G\\LTE", " " });
+            txtNetwork.Location = new Point(836, 585);
             txtNetwork.Margin = new Padding(3, 2, 3, 2);
             txtNetwork.Name = "txtNetwork";
             txtNetwork.ShadowDecoration.CustomizableEdges = customizableEdges22;
@@ -444,7 +446,7 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.Location = new Point(890, 477);
+            label12.Location = new Point(836, 554);
             label12.Name = "label12";
             label12.Size = new Size(164, 29);
             label12.TabIndex = 21;
@@ -476,7 +478,7 @@
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label13.Location = new Point(890, 567);
+            label13.Location = new Point(836, 651);
             label13.Name = "label13";
             label13.Size = new Size(69, 29);
             label13.TabIndex = 23;
@@ -502,9 +504,10 @@
             btnSave.Margin = new Padding(3, 2, 3, 2);
             btnSave.Name = "btnSave";
             btnSave.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            btnSave.Size = new Size(162, 57);
+            btnSave.Size = new Size(136, 57);
             btnSave.TabIndex = 25;
             btnSave.Text = "Save";
+            btnSave.TextAlign = HorizontalAlignment.Right;
             btnSave.Click += btnSave_Click;
             // 
             // btnReset
@@ -523,13 +526,14 @@
             btnReset.Image = (Image)resources.GetObject("btnReset.Image");
             btnReset.ImageAlign = HorizontalAlignment.Left;
             btnReset.ImageSize = new Size(30, 30);
-            btnReset.Location = new Point(1165, 779);
+            btnReset.Location = new Point(1103, 779);
             btnReset.Margin = new Padding(3, 2, 3, 2);
             btnReset.Name = "btnReset";
             btnReset.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            btnReset.Size = new Size(156, 56);
+            btnReset.Size = new Size(153, 56);
             btnReset.TabIndex = 26;
             btnReset.Text = "Reset";
+            btnReset.TextAlign = HorizontalAlignment.Right;
             btnReset.Click += btnReset_Click;
             // 
             // guna2Elipse1
@@ -545,16 +549,17 @@
             txtPrice2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             txtPrice2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtPrice2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtPrice2.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            txtPrice2.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtPrice2.ForeColor = Color.Black;
             txtPrice2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtPrice2.Location = new Point(890, 608);
-            txtPrice2.Margin = new Padding(3, 2, 3, 2);
+            txtPrice2.Location = new Point(836, 682);
+            txtPrice2.Margin = new Padding(4, 2, 4, 2);
             txtPrice2.Name = "txtPrice2";
             txtPrice2.PasswordChar = '\0';
             txtPrice2.PlaceholderText = "";
             txtPrice2.SelectedText = "";
             txtPrice2.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            txtPrice2.Size = new Size(430, 36);
+            txtPrice2.Size = new Size(431, 46);
             txtPrice2.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtPrice2.TabIndex = 27;
             txtPrice2.TextChanged += guna2TextBox1_TextChanged;

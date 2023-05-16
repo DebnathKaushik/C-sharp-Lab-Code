@@ -115,6 +115,7 @@
             txtName.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtName.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtName.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtName.ForeColor = Color.Black;
             txtName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             txtName.Location = new Point(219, 169);
             txtName.Margin = new Padding(4, 3, 4, 3);
@@ -137,12 +138,13 @@
             txtContact.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtContact.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtContact.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtContact.ForeColor = Color.Black;
             txtContact.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             txtContact.Location = new Point(219, 408);
             txtContact.Margin = new Padding(4, 3, 4, 3);
             txtContact.Name = "txtContact";
             txtContact.PasswordChar = '\0';
-            txtContact.PlaceholderText = "";
+            txtContact.PlaceholderText = "+8801XXXXXXXXX";
             txtContact.SelectedText = "";
             txtContact.ShadowDecoration.CustomizableEdges = customizableEdges4;
             txtContact.Size = new Size(499, 45);
@@ -169,7 +171,7 @@
             txtGender.FocusedColor = Color.FromArgb(94, 148, 255);
             txtGender.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtGender.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
-            txtGender.ForeColor = Color.FromArgb(68, 88, 112);
+            txtGender.ForeColor = Color.Black;
             txtGender.ItemHeight = 30;
             txtGender.Items.AddRange(new object[] { "Male", "Female" });
             txtGender.Location = new Point(219, 289);
@@ -200,17 +202,19 @@
             txtEmail.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtEmail.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtEmail.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtEmail.ForeColor = Color.Black;
             txtEmail.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             txtEmail.Location = new Point(219, 517);
             txtEmail.Margin = new Padding(4, 3, 4, 3);
             txtEmail.Name = "txtEmail";
             txtEmail.PasswordChar = '\0';
-            txtEmail.PlaceholderText = "";
+            txtEmail.PlaceholderText = "example@gmail.com";
             txtEmail.SelectedText = "";
             txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges8;
             txtEmail.Size = new Size(495, 45);
             txtEmail.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtEmail.TabIndex = 8;
+            txtEmail.TextChanged += txtEmail_TextChanged;
             // 
             // label5
             // 
@@ -232,6 +236,7 @@
             txtAddress.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtAddress.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtAddress.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtAddress.ForeColor = Color.Black;
             txtAddress.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             txtAddress.Location = new Point(219, 637);
             txtAddress.Name = "txtAddress";
@@ -239,7 +244,7 @@
             txtAddress.PlaceholderText = "";
             txtAddress.SelectedText = "";
             txtAddress.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            txtAddress.Size = new Size(399, 45);
+            txtAddress.Size = new Size(495, 45);
             txtAddress.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtAddress.TabIndex = 10;
             // 
@@ -272,12 +277,12 @@
             txtCompany.FocusedColor = Color.FromArgb(94, 148, 255);
             txtCompany.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtCompany.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            txtCompany.ForeColor = Color.FromArgb(68, 88, 112);
+            txtCompany.ForeColor = Color.Black;
             txtCompany.ItemHeight = 30;
             txtCompany.Location = new Point(939, 169);
             txtCompany.Name = "txtCompany";
             txtCompany.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            txtCompany.Size = new Size(385, 36);
+            txtCompany.Size = new Size(480, 36);
             txtCompany.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtCompany.TabIndex = 11;
             txtCompany.SelectedIndexChanged += txtCompany_SelectedIndexChanged;
@@ -301,12 +306,12 @@
             txtModel.FocusedColor = Color.FromArgb(94, 148, 255);
             txtModel.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtModel.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            txtModel.ForeColor = Color.FromArgb(68, 88, 112);
+            txtModel.ForeColor = Color.Black;
             txtModel.ItemHeight = 30;
             txtModel.Location = new Point(939, 280);
             txtModel.Name = "txtModel";
             txtModel.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            txtModel.Size = new Size(385, 36);
+            txtModel.Size = new Size(480, 36);
             txtModel.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtModel.TabIndex = 13;
             txtModel.SelectedIndexChanged += txtModel_SelectedIndexChanged;
@@ -328,7 +333,7 @@
             panel1.Controls.Add(label11);
             panel1.Controls.Add(label10);
             panel1.Controls.Add(label9);
-            panel1.Location = new Point(940, 368);
+            panel1.Location = new Point(903, 365);
             panel1.Name = "panel1";
             panel1.Size = new Size(550, 257);
             panel1.TabIndex = 15;
@@ -482,6 +487,7 @@
             txtImei.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtImei.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtImei.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtImei.ForeColor = Color.Black;
             txtImei.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             txtImei.Location = new Point(940, 677);
             txtImei.Name = "txtImei";
@@ -489,7 +495,7 @@
             txtImei.PlaceholderText = "";
             txtImei.SelectedText = "";
             txtImei.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            txtImei.Size = new Size(399, 45);
+            txtImei.Size = new Size(479, 45);
             txtImei.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtImei.TabIndex = 17;
             // 

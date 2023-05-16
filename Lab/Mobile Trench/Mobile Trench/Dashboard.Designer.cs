@@ -48,23 +48,18 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Panel();
             txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             btnCancel = new Guna.UI2.WinForms.Guna2Button();
             btnVerify = new Guna.UI2.WinForms.Guna2Button();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            btnMinimize = new Guna.UI2.WinForms.Guna2Button();
             btnDeletePhoneRecords = new Guna.UI2.WinForms.Guna2Button();
             btnCustomerRecords = new Guna.UI2.WinForms.Guna2Button();
             btnCustomer = new Guna.UI2.WinForms.Guna2Button();
             btnStock = new Guna.UI2.WinForms.Guna2Button();
             btnAddNewPhone = new Guna.UI2.WinForms.Guna2Button();
-            btnExit = new Guna.UI2.WinForms.Guna2Button();
             panel2 = new Panel();
+            uC_DeletePhoneRecord1 = new AllUserControl.UC_DeletePhoneRecord();
             uC_CustomerRecords1 = new AllUserControl.UC_CustomerRecords();
             uC_Stock1 = new AllUserControl.UC_Stock();
             customer1 = new AllUserControl.Customer();
@@ -74,7 +69,6 @@
             guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(components);
-            uC_DeletePhoneRecord1 = new AllUserControl.UC_DeletePhoneRecord();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -86,13 +80,11 @@
             panel1.Controls.Add(btnCancel);
             panel1.Controls.Add(btnVerify);
             panel1.Controls.Add(guna2TextBox1);
-            panel1.Controls.Add(btnMinimize);
             panel1.Controls.Add(btnDeletePhoneRecords);
             panel1.Controls.Add(btnCustomerRecords);
             panel1.Controls.Add(btnCustomer);
             panel1.Controls.Add(btnStock);
             panel1.Controls.Add(btnAddNewPhone);
-            panel1.Controls.Add(btnExit);
             panel1.Location = new Point(3, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(321, 983);
@@ -186,34 +178,13 @@
             guna2TextBox1.Size = new Size(371, 63);
             guna2TextBox1.TabIndex = 7;
             // 
-            // btnMinimize
-            // 
-            btnMinimize.CustomizableEdges = customizableEdges9;
-            btnMinimize.DisabledState.BorderColor = Color.DarkGray;
-            btnMinimize.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnMinimize.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnMinimize.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnMinimize.FillColor = Color.FromArgb(0, 118, 221);
-            btnMinimize.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnMinimize.ForeColor = Color.Transparent;
-            btnMinimize.HoverState.FillColor = Color.Transparent;
-            btnMinimize.HoverState.ForeColor = Color.White;
-            btnMinimize.Image = (Image)resources.GetObject("btnMinimize.Image");
-            btnMinimize.ImageSize = new Size(30, 30);
-            btnMinimize.Location = new Point(47, 12);
-            btnMinimize.Name = "btnMinimize";
-            btnMinimize.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnMinimize.Size = new Size(29, 30);
-            btnMinimize.TabIndex = 6;
-            btnMinimize.Click += btnMinimize_Click;
-            // 
             // btnDeletePhoneRecords
             // 
             btnDeletePhoneRecords.BorderRadius = 35;
             btnDeletePhoneRecords.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnDeletePhoneRecords.CheckedState.FillColor = Color.White;
-            btnDeletePhoneRecords.CheckedState.ForeColor = Color.FromArgb(0, 118, 221);
-            btnDeletePhoneRecords.CustomizableEdges = customizableEdges11;
+            btnDeletePhoneRecords.CheckedState.FillColor = Color.FromArgb(0, 118, 221);
+            btnDeletePhoneRecords.CheckedState.ForeColor = Color.White;
+            btnDeletePhoneRecords.CustomizableEdges = customizableEdges9;
             btnDeletePhoneRecords.DisabledState.BorderColor = Color.DarkGray;
             btnDeletePhoneRecords.DisabledState.CustomBorderColor = Color.DarkGray;
             btnDeletePhoneRecords.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -226,19 +197,19 @@
             btnDeletePhoneRecords.ImageSize = new Size(30, 30);
             btnDeletePhoneRecords.Location = new Point(3, 594);
             btnDeletePhoneRecords.Name = "btnDeletePhoneRecords";
-            btnDeletePhoneRecords.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btnDeletePhoneRecords.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnDeletePhoneRecords.Size = new Size(318, 74);
             btnDeletePhoneRecords.TabIndex = 5;
-            btnDeletePhoneRecords.Text = "Delete Phone Record";
+            btnDeletePhoneRecords.Text = "Admin";
             btnDeletePhoneRecords.Click += btnDeletePhoneRecords_Click;
             // 
             // btnCustomerRecords
             // 
             btnCustomerRecords.BorderRadius = 35;
             btnCustomerRecords.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnCustomerRecords.CheckedState.FillColor = Color.White;
-            btnCustomerRecords.CheckedState.ForeColor = Color.FromArgb(0, 118, 221);
-            btnCustomerRecords.CustomizableEdges = customizableEdges13;
+            btnCustomerRecords.CheckedState.FillColor = Color.FromArgb(0, 118, 221);
+            btnCustomerRecords.CheckedState.ForeColor = Color.White;
+            btnCustomerRecords.CustomizableEdges = customizableEdges11;
             btnCustomerRecords.DisabledState.BorderColor = Color.DarkGray;
             btnCustomerRecords.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCustomerRecords.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -251,7 +222,7 @@
             btnCustomerRecords.ImageSize = new Size(30, 30);
             btnCustomerRecords.Location = new Point(3, 472);
             btnCustomerRecords.Name = "btnCustomerRecords";
-            btnCustomerRecords.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnCustomerRecords.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnCustomerRecords.Size = new Size(318, 74);
             btnCustomerRecords.TabIndex = 4;
             btnCustomerRecords.Text = "Customer Records";
@@ -261,9 +232,9 @@
             // 
             btnCustomer.BorderRadius = 35;
             btnCustomer.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnCustomer.CheckedState.FillColor = Color.White;
-            btnCustomer.CheckedState.ForeColor = Color.FromArgb(0, 118, 221);
-            btnCustomer.CustomizableEdges = customizableEdges15;
+            btnCustomer.CheckedState.FillColor = Color.FromArgb(0, 118, 221);
+            btnCustomer.CheckedState.ForeColor = Color.White;
+            btnCustomer.CustomizableEdges = customizableEdges13;
             btnCustomer.DisabledState.BorderColor = Color.DarkGray;
             btnCustomer.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCustomer.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -274,21 +245,21 @@
             btnCustomer.Image = (Image)resources.GetObject("btnCustomer.Image");
             btnCustomer.ImageAlign = HorizontalAlignment.Left;
             btnCustomer.ImageSize = new Size(30, 30);
-            btnCustomer.Location = new Point(3, 237);
+            btnCustomer.Location = new Point(-3, 348);
             btnCustomer.Name = "btnCustomer";
-            btnCustomer.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnCustomer.ShadowDecoration.CustomizableEdges = customizableEdges14;
             btnCustomer.Size = new Size(318, 74);
             btnCustomer.TabIndex = 3;
-            btnCustomer.Text = "Customer";
+            btnCustomer.Text = "Manager";
             btnCustomer.Click += btnCustomer_Click;
             // 
             // btnStock
             // 
             btnStock.BorderRadius = 35;
             btnStock.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnStock.CheckedState.FillColor = Color.White;
-            btnStock.CheckedState.ForeColor = Color.FromArgb(0, 118, 221);
-            btnStock.CustomizableEdges = customizableEdges17;
+            btnStock.CheckedState.FillColor = Color.FromArgb(0, 118, 221);
+            btnStock.CheckedState.ForeColor = Color.White;
+            btnStock.CustomizableEdges = customizableEdges15;
             btnStock.DisabledState.BorderColor = Color.DarkGray;
             btnStock.DisabledState.CustomBorderColor = Color.DarkGray;
             btnStock.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -299,9 +270,9 @@
             btnStock.Image = (Image)resources.GetObject("btnStock.Image");
             btnStock.ImageAlign = HorizontalAlignment.Left;
             btnStock.ImageSize = new Size(30, 30);
-            btnStock.Location = new Point(3, 356);
+            btnStock.Location = new Point(-3, 228);
             btnStock.Name = "btnStock";
-            btnStock.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            btnStock.ShadowDecoration.CustomizableEdges = customizableEdges16;
             btnStock.Size = new Size(318, 74);
             btnStock.TabIndex = 2;
             btnStock.Text = "Stock";
@@ -311,9 +282,9 @@
             // 
             btnAddNewPhone.BorderRadius = 35;
             btnAddNewPhone.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnAddNewPhone.CheckedState.FillColor = Color.White;
-            btnAddNewPhone.CheckedState.ForeColor = Color.FromArgb(0, 118, 221);
-            btnAddNewPhone.CustomizableEdges = customizableEdges19;
+            btnAddNewPhone.CheckedState.FillColor = Color.FromArgb(0, 118, 221);
+            btnAddNewPhone.CheckedState.ForeColor = Color.White;
+            btnAddNewPhone.CustomizableEdges = customizableEdges17;
             btnAddNewPhone.DisabledState.BorderColor = Color.DarkGray;
             btnAddNewPhone.DisabledState.CustomBorderColor = Color.DarkGray;
             btnAddNewPhone.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -326,32 +297,11 @@
             btnAddNewPhone.ImageSize = new Size(30, 30);
             btnAddNewPhone.Location = new Point(3, 114);
             btnAddNewPhone.Name = "btnAddNewPhone";
-            btnAddNewPhone.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            btnAddNewPhone.ShadowDecoration.CustomizableEdges = customizableEdges18;
             btnAddNewPhone.Size = new Size(318, 74);
             btnAddNewPhone.TabIndex = 1;
             btnAddNewPhone.Text = "Add New Phone";
             btnAddNewPhone.Click += btnAddNewPhone_Click;
-            // 
-            // btnExit
-            // 
-            btnExit.CustomizableEdges = customizableEdges21;
-            btnExit.DisabledState.BorderColor = Color.DarkGray;
-            btnExit.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnExit.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnExit.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnExit.FillColor = Color.FromArgb(0, 118, 221);
-            btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnExit.ForeColor = Color.Transparent;
-            btnExit.HoverState.FillColor = Color.Transparent;
-            btnExit.HoverState.ForeColor = Color.White;
-            btnExit.Image = (Image)resources.GetObject("btnExit.Image");
-            btnExit.ImageSize = new Size(30, 30);
-            btnExit.Location = new Point(12, 12);
-            btnExit.Name = "btnExit";
-            btnExit.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            btnExit.Size = new Size(29, 30);
-            btnExit.TabIndex = 0;
-            btnExit.Click += btnExit_Click;
             // 
             // panel2
             // 
@@ -366,6 +316,15 @@
             panel2.Size = new Size(1570, 983);
             panel2.TabIndex = 1;
             panel2.Paint += panel2_Paint;
+            // 
+            // uC_DeletePhoneRecord1
+            // 
+            uC_DeletePhoneRecord1.BackColor = Color.White;
+            uC_DeletePhoneRecord1.Location = new Point(0, 3);
+            uC_DeletePhoneRecord1.Name = "uC_DeletePhoneRecord1";
+            uC_DeletePhoneRecord1.Size = new Size(2269, 1225);
+            uC_DeletePhoneRecord1.TabIndex = 4;
+            uC_DeletePhoneRecord1.Load += uC_DeletePhoneRecord1_Load;
             // 
             // uC_CustomerRecords1
             // 
@@ -422,15 +381,6 @@
             // 
             guna2Elipse4.TargetControl = panel2;
             // 
-            // uC_DeletePhoneRecord1
-            // 
-            uC_DeletePhoneRecord1.BackColor = Color.White;
-            uC_DeletePhoneRecord1.Location = new Point(0, 3);
-            uC_DeletePhoneRecord1.Name = "uC_DeletePhoneRecord1";
-            uC_DeletePhoneRecord1.Size = new Size(2269, 1225);
-            uC_DeletePhoneRecord1.TabIndex = 4;
-            uC_DeletePhoneRecord1.Load += uC_DeletePhoneRecord1_Load;
-            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -449,13 +399,11 @@
         #endregion
         private Panel panel2;
         private Panel panel1;
-        private Guna.UI2.WinForms.Guna2Button btnExit;
         private Guna.UI2.WinForms.Guna2Button btnAddNewPhone;
         private Guna.UI2.WinForms.Guna2Button btnDeletePhoneRecords;
         private Guna.UI2.WinForms.Guna2Button btnCustomerRecords;
         private Guna.UI2.WinForms.Guna2Button btnCustomer;
         private Guna.UI2.WinForms.Guna2Button btnStock;
-        private Guna.UI2.WinForms.Guna2Button btnMinimize;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private AllUserControl.UC_AddNewPhone uC_AddNewPhone1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1Customer;

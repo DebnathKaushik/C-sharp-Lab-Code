@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using TheArtOfDevHtmlRenderer.Adapters;
+using System.Text.RegularExpressions;
 
 
 namespace Mobile_Trench.AllUserControl
@@ -93,6 +94,7 @@ namespace Mobile_Trench.AllUserControl
         {
             if (txtName.Text != "" && txtGender.Text != "" && txtContact.Text != "" && txtEmail.Text != "" && txtAddress.Text != "" && txtCompany.Text != "" && txtModel.Text != "" && txtImei.Text != "")
             {
+
                 String name = txtName.Text;
                 String gender = txtGender.Text;
                 Int64 contact = Int64.Parse(txtContact.Text);
@@ -102,20 +104,66 @@ namespace Mobile_Trench.AllUserControl
                 String model = txtModel.Text;
                 String imei = txtImei.Text;
 
+                if (Regex.IsMatch(contact.ToString(), @"^(?:\+?88)?01[3-9]\d{8}$"))
+                {
+                    if (Regex.IsMatch(email, @"^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"))
+                    {
 
-                query = "insert into customerPurchase (cname, gender, contact, email, caddress, company, model, imei) values('" + name + "','" + gender + "','" + contact + "','" + email + "','" + address + "','" + company + "','" + model + "','" + imei + "')";
-                fn.setdata(query);
-                txtName.Clear();
-                txtGender.SelectedIndex = -1;
-                txtContact.Clear();
-                txtEmail.Clear();
-                txtAddress.Clear();
-                txtImei.Clear();
+                        if (Regex.IsMatch(imei, @"^\d{15}$"))
+                        {
+                            query = "insert into customerPurchase (cname, gender, contact, email, caddress, company, model, imei) values('" + name + "','" + gender + "','" + contact + "','" + email + "','" + address + "','" + company + "','" + model + "','" + imei + "')";
+                            fn.setdata(query);
+
+                            txtName.Clear();
+                            txtGender.SelectedIndex = -1;
+                            txtContact.Clear();
+                            txtEmail.Clear();
+                            txtAddress.Clear();
+                            txtImei.Clear();
+                            txtCompany.SelectedIndex = -1;
+                            txtModel.SelectedIndex = -1;
+                            ramlabel.Text = string.Empty;
+                            internallabel.Text = string.Empty;
+                            expandablelabel.Text = string.Empty;
+                            rearlabel.Text = string.Empty;
+                            frontlabel.Text = string.Empty;
+                            fingerprintlabel.Text = string.Empty;
+                            pricelabel.Text = string.Empty;
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("You have to put  15 numerical digit ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("use valid email", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("put valid phone number", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+
+
+
+
+
+
             }
             else
             {
                 MessageBox.Show("Fill all the fields", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

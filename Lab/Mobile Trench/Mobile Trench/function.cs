@@ -55,5 +55,10 @@ namespace Mobile_Trench
             SqlDataReader sdr = cmd.ExecuteReader();
             return sdr;
         }
+
+        internal void setData(string query)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

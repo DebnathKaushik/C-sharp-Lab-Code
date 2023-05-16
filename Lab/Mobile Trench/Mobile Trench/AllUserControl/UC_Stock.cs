@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,6 +18,9 @@ namespace Mobile_Trench.AllUserControl
         public UC_Stock()
         {
             InitializeComponent();
+
+            guna2DataGridView1.CellEndEdit += guna2DataGridView1_CellEndEdit;
+
         }
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -43,6 +47,8 @@ namespace Mobile_Trench.AllUserControl
                 bid = int.Parse(guna2DataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString());
             }
 
+
+
             query = " select * from newMobile where mid = " + bid + " ";
             DataSet ds = fn.getData(query);
 
@@ -58,6 +64,49 @@ namespace Mobile_Trench.AllUserControl
             simlabel.Text = ds.Tables[0].Rows[0][10].ToString();
             networklabel.Text = ds.Tables[0].Rows[0][11].ToString();
             pricelabel.Text = ds.Tables[0].Rows[0][12].ToString();
+
+            guna2DataGridView1.ReadOnly = false;
+            guna2DataGridView1.EditMode = DataGridViewEditMode.EditOnKeystrokeOrF2;
+        }
+
+        private void UC_Stock_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void guna2DataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+
+
+
+
+            // Get the updated data from the cell
+            var cell = guna2DataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex];
+            var newValue = cell.Value.ToString();
+            var columnName = guna2DataGridView1.Columns[e.ColumnIndex].Name;
+            var primaryKeyValue = guna2DataGridView1.Rows[e.RowIndex].Cells["mid"].Value.ToString();
+
+            // Update the corresponding data in the SQL database using SQL queries or an ORM like Entity Framework
+            // Example using SQL queries
+            string connectionString = "data source = DESKTOP-01CUBJT\\SQLEXPRESS; database = mobileshop; integrated security = True";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string sql = $"UPDATE newMObile SET {columnName} = @newValue WHERE mid = @primaryKeyValue";
+                SqlCommand command = new SqlCommand(sql, connection);
+                command.Parameters.AddWithValue("@newValue", newValue);
+                command.Parameters.AddWithValue("@primaryKeyValue", primaryKeyValue);
+                command.ExecuteNonQuery();
+            }
+
+            // Refresh the data in the control to reflect the changes
+            guna2DataGridView1.Refresh();
+
+        }
+
+        private void guna2DataGridView1_CellBeginEdit(object sender, DataGridViewCellCancelEventArgs e)
+        {
 
         }
     }

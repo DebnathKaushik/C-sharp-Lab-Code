@@ -51,5 +51,10 @@ namespace Mobile_Trench.AllUserControl
                 MessageBox.Show("You Cancelled The Operation", "Back <-", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void UC_DeletePhoneRecord_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

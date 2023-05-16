@@ -116,8 +116,10 @@
             guna2DataGridView1.ThemeStyle.RowsStyle.Height = 29;
             guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            guna2DataGridView1.CellBeginEdit += guna2DataGridView1_CellBeginEdit;
             guna2DataGridView1.CellClick += guna2DataGridView1_CellClick;
             guna2DataGridView1.CellContentClick += guna2DataGridView1_CellContentClick;
+            guna2DataGridView1.CellEndEdit += guna2DataGridView1_CellEndEdit;
             // 
             // label1
             // 
@@ -420,6 +422,7 @@
             ForeColor = Color.Black;
             Name = "UC_Stock";
             Size = new Size(1815, 980);
+            Load += UC_Stock_Load;
             Enter += UC_Stock_Enter;
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
             ResumeLayout(false);

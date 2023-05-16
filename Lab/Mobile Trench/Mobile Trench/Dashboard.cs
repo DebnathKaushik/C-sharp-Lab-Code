@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,8 @@ namespace Mobile_Trench
         private void Dashboard_Load(object sender, EventArgs e)
         {
             enableDisable(false, false, false);
+            uC_AddNewPhone1.Visible = true;
+            uC_AddNewPhone1.BringToFront();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -62,12 +65,19 @@ namespace Mobile_Trench
         {
             customer1.Visible = true;
             customer1.BringToFront();
+
+            panel2.Enabled = false;
+            enableDisable(true, true, true);
+
         }
 
         private void btnCustomerRecords_Click(object sender, EventArgs e)
         {
             uC_CustomerRecords1.Visible = true;
             uC_CustomerRecords1.BringToFront();
+
+            panel2.Enabled = false;
+            enableDisable(true, true, true);
         }
 
         private void btnDeletePhoneRecords_Click(object sender, EventArgs e)
@@ -109,6 +119,8 @@ namespace Mobile_Trench
         private void btnCancel_Click(object sender, EventArgs e)
         {
             panel2.Enabled = true;
+            uC_AddNewPhone1.Visible = true;
+            uC_AddNewPhone1.BringToFront();
             enableDisable(false, false, false);
         }
 
@@ -119,6 +131,22 @@ namespace Mobile_Trench
                 panel2.Enabled = true;
                 uC_DeletePhoneRecord1.Visible = true;
                 uC_DeletePhoneRecord1.BringToFront();
+                enableDisable(false, false, false);
+                txtPassword.Clear();
+            }
+            else if (txtPassword.Text == "man")
+            {
+                panel2.Enabled = true;
+                customer1.Visible = true;
+                customer1.BringToFront();
+                enableDisable(false, false, false);
+                txtPassword.Clear();
+            }
+            else if (txtPassword.Text == "cu")
+            {
+                panel2.Enabled = true;
+                uC_CustomerRecords1.Visible = true;
+                uC_CustomerRecords1.BringToFront();
                 enableDisable(false, false, false);
                 txtPassword.Clear();
             }

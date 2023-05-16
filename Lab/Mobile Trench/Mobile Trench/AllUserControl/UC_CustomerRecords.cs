@@ -56,5 +56,20 @@ namespace Mobile_Trench.AllUserControl
                 guna2DataGridView1.DataSource = ds.Tables[0];
             }
         }
+
+        private void UC_CustomerRecords_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

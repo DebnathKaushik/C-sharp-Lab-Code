@@ -56,10 +56,11 @@
             label1.ImageAlign = ContentAlignment.MiddleLeft;
             label1.Location = new Point(46, 30);
             label1.Name = "label1";
-            label1.Size = new Size(482, 64);
+            label1.Size = new Size(449, 64);
             label1.TabIndex = 2;
             label1.Text = "Customer Records";
             label1.TextAlign = ContentAlignment.MiddleRight;
+            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -80,7 +81,7 @@
             txtSearchBy.FocusedColor = Color.FromArgb(94, 148, 255);
             txtSearchBy.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtSearchBy.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSearchBy.ForeColor = Color.FromArgb(68, 88, 112);
+            txtSearchBy.ForeColor = Color.Black;
             txtSearchBy.ItemHeight = 30;
             txtSearchBy.Items.AddRange(new object[] { "Customer Name", "IMEI" });
             txtSearchBy.Location = new Point(544, 220);
@@ -110,15 +111,16 @@
             txtSearch.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtSearch.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSearch.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSearch.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSearch.ForeColor = Color.Black;
             txtSearch.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSearch.Location = new Point(544, 335);
+            txtSearch.Location = new Point(539, 324);
             txtSearch.Name = "txtSearch";
             txtSearch.PasswordChar = '\0';
-            txtSearch.PlaceholderText = "";
+            txtSearch.PlaceholderText = "Enter Customer Name or IMEI";
             txtSearch.SelectedText = "";
             txtSearch.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txtSearch.Size = new Size(545, 45);
+            txtSearch.Size = new Size(541, 52);
             txtSearch.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtSearch.TabIndex = 6;
             // 
@@ -190,6 +192,7 @@
             guna2DataGridView1.ThemeStyle.RowsStyle.Height = 29;
             guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            guna2DataGridView1.CellContentClick += guna2DataGridView1_CellContentClick;
             // 
             // guna2Elipse1
             // 
@@ -209,6 +212,7 @@
             Controls.Add(label1);
             Name = "UC_CustomerRecords";
             Size = new Size(1815, 980);
+            Load += UC_CustomerRecords_Load;
             Enter += UC_CustomerRecords_Enter;
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
             ResumeLayout(false);

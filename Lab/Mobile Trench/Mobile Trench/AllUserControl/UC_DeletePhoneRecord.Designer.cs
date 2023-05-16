@@ -51,11 +51,11 @@
             label1.Font = new Font("Century Gothic", 24F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Image = (Image)resources.GetObject("label1.Image");
             label1.ImageAlign = ContentAlignment.MiddleLeft;
-            label1.Location = new Point(30, 28);
+            label1.Location = new Point(30, 33);
             label1.Name = "label1";
-            label1.Size = new Size(515, 64);
+            label1.Size = new Size(247, 64);
             label1.TabIndex = 2;
-            label1.Text = "Delete Phone Record";
+            label1.Text = "Admin ";
             label1.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtSearch
@@ -67,15 +67,16 @@
             txtSearch.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtSearch.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSearch.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSearch.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSearch.ForeColor = Color.Black;
             txtSearch.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSearch.Location = new Point(455, 211);
+            txtSearch.Location = new Point(513, 231);
             txtSearch.Name = "txtSearch";
             txtSearch.PasswordChar = '\0';
             txtSearch.PlaceholderText = "";
             txtSearch.SelectedText = "";
             txtSearch.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txtSearch.Size = new Size(545, 45);
+            txtSearch.Size = new Size(416, 52);
             txtSearch.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtSearch.TabIndex = 8;
             txtSearch.TextChanged += txtSearch_TextChanged;
@@ -84,7 +85,7 @@
             // 
             labelTOSET.AutoSize = true;
             labelTOSET.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            labelTOSET.Location = new Point(455, 183);
+            labelTOSET.Location = new Point(513, 203);
             labelTOSET.Name = "labelTOSET";
             labelTOSET.Size = new Size(183, 25);
             labelTOSET.TabIndex = 7;
@@ -194,6 +195,7 @@
             Controls.Add(label1);
             Name = "UC_DeletePhoneRecord";
             Size = new Size(1815, 980);
+            Load += UC_DeletePhoneRecord_Load;
             Enter += UC_DeletePhoneRecord_Enter;
             ((System.ComponentModel.ISupportInitialize)DataGridView1).EndInit();
             ResumeLayout(false);
